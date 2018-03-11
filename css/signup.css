@@ -1,0 +1,122 @@
+body{
+    font-family: Arial, "Lucida Sans", sans-serif;
+}
+
+.form-inputs{
+    margin-bottom: 8px;
+}
+
+.form-content{
+    background-color: #e8e8e8;
+    padding: 17px 30px 165px;
+}
+
+.page-content{
+    font-size: 15px;
+    margin: 0 auto;
+    max-width: 405px;
+}
+
+.login-page{
+    display: block;
+}
+
+.form-group{
+    margin-bottom: 12px;
+}
+
+.control-label{
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+}
+
+.form-control{
+    width: 100%;
+    font-size: 16pt;
+    min-height: 37px;
+    border: 1px solid #6f6f6f;
+    background: #fff;
+    padding: 3px 6px;
+    -webkit-appearance: none;
+    outline: 0;
+    border-radius: 6px;
+    box-sizing: border-box!important;
+}
+
+.checkbox{
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-signin{
+    margin-top: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-color: #866b46;
+    background-color: #845936;
+    background-image: linear-gradient(180deg,#ffc164,#b9891e);
+    background-repeat: repeat-x;
+    color: #f8f8f9;
+    text-shadow: 0 -1px #714526;
+
+    display: inline-block;
+    padding: 9px 15px;
+    border: 1px solid #9a99ac;
+    border-radius: 6px;
+    background-repeat: repeat-x;
+    box-shadow: 0 1px 5px rgba(0,0,0,.2);
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 16px;
+    font-family: Helvetica Neue,Helvetica,Arial,Lucida Grande,sans-serif;
+    line-height: 22px;
+    cursor: pointer;
+    user-select: none;
+    -webkit-highlight: none;
+    -webkit-tap-highlight-color: transparent;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.page-header{
+    padding: 13px 0 23px;
+    text-align: center;
+}
+
+.control-error{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0ms 1.9s,opacity 1.9s ease-in-out;
+    -webkit-transition: visibility 0ms 1.9s,opacity 1.9s cubic-bezier(0.42, 0, 0.93, 0.93);
+}
+
+.navlinks{
+    text-align: center;
+    margin-top: 18px;
+}
+
+.linkItem-title{
+    color: #00c;
+    text-decoration: none;
+    font-size: 13px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+h1#pageHeaderText{
+    display: block;
+}
+
+form#loginform{
+    display: block;
+    margin-top: 0px;
+    font-size: 15px;
+    height: 215px;
+    width: 345px;
+}

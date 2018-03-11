@@ -1,0 +1,6 @@
+.control-datasaved{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0ms 1.9s,opacity 1.9s ease-in-out;
+    -webkit-transition: visibility 0ms 1.9s,opacity 1.9s cubic-bezier(0.42, 0, 0.93, 0.93);
+}
