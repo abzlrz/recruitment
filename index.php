@@ -7,13 +7,14 @@ $logout = false;
 if(!empty($curr = $_SESSION['firstname'])){
     $result.= "<li style=\"float:right\"><div class='dropdown'><a href='#hello'>Hello $curr! </a>";
     $result.="    <div class='dropdown-content'>";
-    $result.="           <a href='settings.php' name='settings'>Edit Info</a>
-                         <a href='php/logout.php' name='logout'>Logout</a>";
-    $result.="</div></div></li>";
 
     if($_SESSION['accesstype'] == false){
-        $result.= "<li><a href=\"#postjob\">Post Job</a></li>";
+        $result.= "<a href=\"manage.php\" style='color: orange; font-weight: bold'>Recruitment</a>";
     }
+
+    $result.="           <a href='settings.php' name='settings'>Edit Info</a>
+                         <a href='php/logout.php' name='logout' style='color: red'>Logout</a>";
+    $result.="</div></div></li>";
 }
 else {
     $result =  "<li style=\"float:right\"><a href=\"login.php\">Sign In</a></li>";

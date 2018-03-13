@@ -43,8 +43,12 @@ if (!empty($_POST)){
     $obj->setConnection($connection);
 
     $target = $_SESSION['email'];
+    $acctype = 0;
+    if ($_SESSION['accesstype'] == false){
+       $acctype = 1;
+    }
 
-    if ($obj->updateAccount($firstname, $lastname, $email, $password, 0, $target)){
+    if ($obj->updateAccount($firstname, $lastname, $email, $password, $acctype, $target)){
         $_SESSION['firstname'] = $obj->getFirstname();
         $_SESSION['lastname'] = $obj->getLastname();
         $_SESSION['email'] = $obj->getEmail();
@@ -61,6 +65,11 @@ if (!empty($_POST)){
     <link rel="stylesheet" href="css/settings.css">
 </head>
 <body>
+<div>
+    <ul class="navbar">
+        <li style="float: right"><a href="index.php">Find Job</a></li>
+    </ul>
+</div>
 <div class="page-content">
     <header class="page-header"><img src="img/logo.svg" alt=""></header>
     <section class="form-content">
@@ -97,8 +106,6 @@ if (!empty($_POST)){
         </form>
     </section>
     <div class="navlinks">
-        <a href="login.php">
-            <div class="linkItem-title">Have an account? Sign in</div>
         </a>
         <a href="help.php">
             <div class="linkItem-title">Help Center</div>

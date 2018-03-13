@@ -4,3 +4,31 @@
     transition: visibility 0ms 1.9s,opacity 1.9s ease-in-out;
     -webkit-transition: visibility 0ms 1.9s,opacity 1.9s cubic-bezier(0.42, 0, 0.93, 0.93);
 }
+
+.navbar{
+    position: relative;
+    box-sizing: border-box;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #0f10c8;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #f0f1f5;
+}
+
+div{
+    display: block;
+}
