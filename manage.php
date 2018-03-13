@@ -1,18 +1,11 @@
 <html>
 <head>
     <title>Recruitment Management</title>
-    <link rel="stylesheet" href="css/main.css">
 
 </head>
 <body>
 
-<div>
-    <ul>
-        <li><a href="#jobposting">Job Posting</a></li>
-        <li><a href="#applicanthiring">Hire an Applicant</a></li>
-        <li><a href="#usermanage">User Management</a></li>
-    </ul>
-</div>
+<div></div>
 
 <script>
     var header = document.getElementById("nav");

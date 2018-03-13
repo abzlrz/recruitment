@@ -9,7 +9,7 @@ if(!empty($curr = $_SESSION['firstname'])){
     $result.="    <div class='dropdown-content'>";
 
     if($_SESSION['accesstype'] == false){
-        $result.= "<a href=\"manage.php\" style='color: orange; font-weight: bold'>Recruitment</a>";
+        $result.= "<a href='jobposting/jobposting.php' style='color: orange; font-weight: bold'>Recruitment</a>";
     }
 
     $result.="           <a href='settings.php' name='settings'>Edit Info</a>

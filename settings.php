@@ -67,7 +67,7 @@ if (!empty($_POST)){
 <body>
 <div>
     <ul class="navbar">
-        <li style="float: right"><a href="index.php">Find Job</a></li>
+        <li style="float: right"><a href="index.php">Return</a></li>
     </ul>
 </div>
 <div class="page-content">
