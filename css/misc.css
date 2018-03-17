@@ -1,0 +1,48 @@
+.jobpost-content{
+    margin-right: -24px;
+    padding-right: 28px;
+    margin-bottom: 10px;
+    padding: 15px;
+    border: 1px solid;
+    position: relative;
+    width: 100%;
+}
+
+.jobdescription{
+    float: left;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:link{
+    color: #00c;
+    cursor: pointer;
+}
+
+.salary{
+    clear: both;
+
+}
+
+.salary{
+    font-style: italic;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.qualification{
+    font-family: Consolas, sans-serif;
+    display: block;
+    display: -webkit-box;
+    max-width: 75ch;
+    line-height: 1.4;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+div{
+    display: block;
+}

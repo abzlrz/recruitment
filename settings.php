@@ -1,6 +1,6 @@
 <?php
-include "php/objs.php";
-include "php/config.php";
+include "misc/objs.php";
+include "misc/config.php";
 
 $obj = new User();
 $msg = "";

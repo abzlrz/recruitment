@@ -1,6 +1,6 @@
 <?php
-include "php/objs.php";
-include "php/config.php";
+include "misc/objs.php";
+include "misc/config.php";
 
 $msg = "";
 $firstname = "";
@@ -51,6 +51,7 @@ if (!empty($_POST)){
         $obj->proceed();
     }
     $msg = $obj->msg;
+
 }
 ?>
 
@@ -91,7 +92,7 @@ if (!empty($_POST)){
                     <div class="control-error"><?php $errorPassword ?></div>
                 </div>
             </div>
-            <div class="control-error"><?php $msg ?></div>
+            <div class="control-error"><?php echo $msg ?></div>
             <button class="btn-signin" type="submit" name = "submit">Sign Up</button>
         </form>
     </section>

@@ -1,6 +1,6 @@
 <?php
-include "php/objs.php";
-include "php/config.php";
+include "misc/objs.php";
+include "misc/config.php";
 
 $msg = "";
 
@@ -13,6 +13,7 @@ if (isset($_POST['submit'])){
     $obj->setConnection($connection);
 
     if ($obj->login($email, $pass)){
+        $_SESSION['userid'] = $obj->getID();
         $_SESSION['firstname'] = $obj->getFirstname();
         $_SESSION['lastname'] = $obj->getLastname();
         $_SESSION['email'] = $obj->getEmail();

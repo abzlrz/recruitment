@@ -1,7 +1,7 @@
 .main{
-    padding-top: 8px;
-    padding-left: 5em;
-    padding-right: 5em;
+    padding-top: 5em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
 
 #content {
@@ -71,4 +71,48 @@ a:hover{
 
 body{
     word-wrap: break-word;
+}
+
+.control-error{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0ms 1.9s,opacity 1.9s ease-in-out;
+    -webkit-transition: visibility 0ms 1.9s,opacity 1.9s cubic-bezier(0.42, 0, 0.93, 0.93);
+}
+
+.btn{
+    border-radius: 6px;
+    color: #ffffff;
+    padding: 10px 10px 10px 10px;
+}
+
+
+span a{
+    padding: 10px 25px 10px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+
+#d1{
+    color: white;
+    background-color: #0f10c8;
+}
+
+#d2{
+    color: white;
+    background-color: #cf2c33;
+}
+
+#d1:hover{
+    background-color: #0366d6;
+}
+
+#d2:hover{
+    background-color: #d0614a;
+}
+
+.controls{
+    padding-top: 1.5em;
+    padding-bottom: .5em;
 }
